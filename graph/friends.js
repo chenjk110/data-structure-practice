@@ -5,8 +5,6 @@ class Person {
     /* define */
     Object.defineProperties(this, {
       friends: {
-        enumerable: false,
-        configurable: false,
         value: new Set()
       }
     })
